@@ -1,10 +1,10 @@
 {
   "expo": {
-    "name": "sterblue",
-    "slug": "sterblue-exercice",
+    "name": "Sterblue mobile test",
+    "slug": "mobile-internship-test",
     "privacy": "public",
-    "sdkVersion": "32.0.0",
-    "platforms": ["ios", "android"],
+    "sdkVersion": "35.0.0",
+    "platforms": ["ios", "android", "web"],
     "version": "1.0.0",
     "orientation": "landscape",
     "icon": "./assets/icon.png",
