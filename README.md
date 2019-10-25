@@ -43,10 +43,10 @@ git clone https://gitlab.com/nacho.carnicero/mobile-internship-exercice/
 ```
 
 - Once it's cloned enter the repository folder with `cd mobile-internship-exercice/`
-- Install all required dependencies with `npm install`
-- Launch the packager by doing `npm start`
+- Install all required dependencies with `npm install` or `yarn install`
+- Launch the packager server by doing `npm start` or `yarn start`
 - Go to your phone and download the Expo Client from the App store or Google Play
-- Now if you scan the QR code that is shown in the terminal where you launched the packager the app should run on your device, and every time time you change your code this should be reflected in your device.
+- Now if you scan the QR code that is shown in the window that was opened when you launched the packager the app should run on your device, and every time time you change your code this should be reflected in your device.
 
 ## 2 - Exercise
 
@@ -66,13 +66,14 @@ This is the most basic deliverable we expect from you. It includes the app with 
 
 ### c. Control speed
 
-- Add a state to the app containing the drone speed
+- Add a state to the component containing the drone speed
 - Add two buttons to the subview that will change the speed of the drone stored in the app state.
 - We suggest to use the package react native elements for the button: `npm install react-native-elements`
+- Bonus points if you use functional components and React hooks here
 
 ### d. Display a list of AI detections boxes
 
-In this part you should display AI detections. These are defined by the following list:
+In this part you should display AI detections. The list of detections is defined by the following list:
 
 ```JSON
 {"detections": [{ "top": "50%", "left": "50%" }, { "top": "25%", "left": "30%" }, { "top": "60%", "left": "10%" }]}
@@ -105,4 +106,4 @@ Finally, we are going to simulate fetching of AI detections from the DB (and ass
 
 - Add the detections to the app state
 - Create a button component for "fetching" the detections
-- When the button is pressed, randomly change the number of detections as well as their positions on the screen.
+- When the button is pressed, randomly change the number of detections as well as their positions on the screen
